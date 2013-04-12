@@ -1,0 +1,245 @@
+body{
+	padding: 0;
+	background: #ECF1EF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#conteudo{
+	width: 770px;
+	margin: auto;
+	border: 0px solid black;
+}
+
+
+#cesquerda{
+	float: left;
+	padding: 10px;
+	width: 370px;
+	text-align: center;
+}
+
+#cdireita{
+	float: left;
+	padding: 10px;
+	width: 350px;
+	margin-top: 0px;
+}
+#barra-titulo{
+	color: white;
+	padding: 15px;
+	background: #4973AB;
+	margin-bottom: 30px;
+}
+#barra_titulo{
+	color: white;
+	padding: 15px;
+	background: #4973AB;
+	
+}
+#barra-titulo a:link,
+#barra-titulo a:visited,
+#barra-titulo a:active,
+#barra-titulo a:hover{
+	color: white;
+}
+
+#titulo-texto{
+	float: left;
+}
+#titulo-login{
+	float: right;
+	padding: 0px 0;
+}
+#titulo{
+	padding: 8px 0;
+	font-weight: bold;
+	font-size: 12px;
+}
+#botao-login {
+	background-color:#79bbff;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+
+}
+#botao-login:hover {
+	background-color:#4197ee;
+}
+#botao-login:active {
+	position:relative;
+	top:1px;
+}
+#descricao{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: white;
+	padding: 20px;
+}
+.clear{
+	clear: both;
+}
+footer{
+	margin-top: 30px;
+	text-align: center;
+	text-transform:uppercase;
+	font-size: 12px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+footer ul{
+	list-style-type: none;
+}
+footer li{
+	display: inline;
+	padding: 2px 15px;
+
+}
+
+footer a:link,
+footer a:visited,
+footer a:active,
+footer a:hover{
+ text-decoration: none;
+ color: blue;
+}
+footer a:hover{
+ text-decoration: underline;
+}
+
+.login{
+	margin:5px 25px;
+	color:#CCC;
+}
+
+.campo_1{
+	margin-bottom:10px;
+	color:#CCC;
+	font-size:13px;
+}
+
+.campo_2{
+	width:150px;
+	margin-bottom:10px;
+	color:#CCC;
+	font-size:13px;
+}
+
+#botao_cadastro {
+	background-color:#4973AB;
+	border:1px solid;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	width:120px;
+	height:30px;
+	margin: 10px 10px 10px 145px;
+}
+#botao_cadastro:hover {
+	background-color:#B08363;
+}
+#botao_cadastro:active {
+	position:relative;
+	top:1px;
+}
+
+#botao_login {
+	background-color:#B08363;
+	border:1px solid #4973AB;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	width:120px;
+	height:30px;
+	margin: 20px 10px 10px 145px;
+}
+#botao_login:hover {
+	background-color:#CCC;
+}
+#botao_login:active {
+	position:relative;
+	top:1px;
+}
+
+#cadastro{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: white;
+	padding: 20px;
+	height:350px;
+	color:#333;
+	margin-left:15px;
+}
+.direita_login{
+	margin-top:25px;
+}
+
+.titulo_c{
+	font-size:22px;
+	font-weight:bold;
+}
+
+.texto_c{
+	font-size:12px;
+}
+
+.engloba_form{
+	width:285px;
+	margin:auto;
+	margin-top:20px;
+	font-size:14px;
+	font-weight:bold;
+	color:#B08363;
+}
+
+#engloba_conteudo{
+	margin:auto;
+}
+
+#cad_esquerda{
+	float: left;
+	padding: 10px;
+	width: 270px;
+}
+
+#login_esquerda{
+	float: left;
+	padding: 10px;
+	width: 270px;
+}
+
+#login_direita{
+	float: right;
+	width: 270px;
+}
+
+#cad_esquerda img{
+	margin-left:20px;
+	padding-top:15px;
+	width:221px;
+}
+
+#cad_direita{
+	float: left;
+	padding: 10px;
+	width: 459px;
+}
+
+#foto_perfil{
+	width: 150px;
+    height: 160px;
+	background:#000;
+	margin:10px;
+}
