@@ -1,29 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-   <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
-       <head>
-       		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<title>Modelo Transitional UTF</title>	
-			    <link rel="stylesheet" type="text/css" href="estilos_photoshoot.css"> 
-				<style type="text/css">
-				  @import url(css/estilos_photoshoot.css);
-				</style>
-       </head>
-       <body>
+<? include head; ?>
 	
     <!-- Principal -->
 	<div id="conteudo">
 		<!-- Caixa da esquerda -->
 		<div id="cesquerda">
-			 <img src="images/Logo.png" alt="" />
+			 <img src="<? echo DEFAULT_URL.IMG.""; ?>Logo.png" alt="" />
 		</div>
 		
 		<!-- Caixa da direita -->
 		<div id="cdireita">
+		
+			<!-- Form login organizar -->
+			<form id="frm" name="frm" method="post" action="/loginprocess" enctype="multipart/form-data">
+	    		<div class="loginEmail">
+	                <label for="loginEmail">E-mail: </label>
+	                <input type="text" name="loginEmail" id="loginEmail" maxlength="50"/>
+	            </div>            
+	            <div class="loginSenha">
+	                <label for="loginSenha" id="loginSenhaLabel">Senha: </label>
+	                <input type="password" name="loginSenha" id="loginSenha" maxlength="20"/>
+	            </div>
+	            <input id="btnAcessar" type="button" value="Acessar"/>	            
+	    	</form>
+		
 			<!-- Barra com título e botão de login -->
 			<div id="barra-titulo">
 				<div id="titulo-texto">
-					<div id="titulo"><a href="cadastro.php">Quero me cadastrar</a></div>
+					<div id="titulo"><a href="cadastro">Quero me cadastrar</a></div>
 				</div>
 				<div id="titulo-login"><a id="botao-login" href="#">Entrar</a></div>
 				<div class="clear"></div>
